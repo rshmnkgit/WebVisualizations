@@ -1,0 +1,265 @@
+body {
+    background-color: gainsboro;
+}
+h1 {
+    /* color: rgb(9, 168, 168); */
+    color: rgb(19, 175, 175);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1%;
+    font-weight: bold;
+    padding-left: 1%;
+}
+h2 {
+    color: rgb(19, 175, 175);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+/*******    Boxes     *******/
+#container-box {
+    background-color: white;
+    padding-top: 2%;
+    margin-top: 1%;
+}
+#setup-row {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 3%;
+}
+#main-box {
+    background-color: white;
+    padding-top: 3%;
+    margin-left: 0%;
+}
+#main-box p {
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 123, 146);    
+}
+#right-box {
+    background-color: gainsboro;
+}
+#side-box {
+    background-color: white;
+    margin-right: 0%;
+    padding-top: 5%;
+    padding-left: 3%;
+    border: gray;
+    border-width: 50px;
+}
+.left-box {
+    margin-left: 0%;
+    padding: 0%;
+}
+
+/*******    Images     *******/
+#img-landpg {
+    width: 200px;   
+    height:200px;
+    /* margin-right: 1%; */
+    float: left;
+}
+.img-visual {
+    width: 200px;   
+    height:200px;
+}
+.table {
+    table-layout: auto;
+    border: 2 double red;   
+}
+
+
+
+.txtline {
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-left: 1%; */
+}
+
+#homebtn {
+    background-color: rgb(19, 175, 175);
+    margin-left: 14%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: whitesmoke;
+    max-height: max-content;
+}
+
+/*******    Footer     *******/
+#greenbar {
+    background-color: rgb(19, 175, 175);
+    height: 9%;
+}
+#cn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#footer-bar {
+    /* position: fixed; */
+    /* position: absolute; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: rgb(129, 129, 129);
+    text-align: center;
+    /* vertical-align: middle; */
+    color: white;
+    font-size: small;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.footerrow{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+.footer {
+    position: fixed;
+    /* position: absolute; */
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    /* text-anchor: middle; */
+    height: 6%;
+    background-color: rgb(129, 129, 129);
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+#foot-note {
+    vertical-align: middle;
+    height: 50%;
+}
+.align-middle {
+    vertical-align: middle;
+}
+.nav-item:hover {
+    background-color: gainsboro !important;
+}
+/*-----------------------------------
+          Testing                   */
+.box {
+    margin: 5px;
+}
+.red {
+    background-color: tomato;
+}
+.teal {
+    background-color: teal;
+}
+.yellow {
+    background-color: yellow;
+}
+/*------------------------------------- */
+
+/*---------------------------------------------------------------------------------------------------*/
+@media (max-width: 576px) { 
+    .img-visual {
+        width: 20%;
+        height: 50%;
+    }
+    #main-box {
+        margin: 3%;
+    }
+    #side-box {
+        margin: 3%
+    }
+    .navbar {
+        padding: 0%;
+        margin: 1px;
+    }
+    .navbar-light  {
+        background-color:  rgb(19, 175, 175) !important;
+    }
+    .collapse.navbar-collapse {
+        background-color: white !important;
+    }  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+
+/*
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }*/
+    /* .collapse.in{
+        display:block !important;
+    } */
+/*
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 123, 146);   
+    padding: 10px;
+}
+
+
+
+.div-main {
+    background-color: white;
+    width: 60%;
+}
+
+
+
+.div-visuals {
+    position: relative;
+    background-color: white;
+    width: 35%;
+    margin-top: 0%;
+    float: right;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+}  */
